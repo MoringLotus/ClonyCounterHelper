@@ -1,0 +1,7 @@
+类别: B.subtilis, 数量: 5444
+类别: P.aeruginosa, 数量: 7365
+类别: E.coli, 数量: 9133
+类别: S.aureus, 数量: 8175
+类别: C.albicans, 数量: 10733
+类别: Contamination, 数量: 65
+类别: Defect, 数量: 32
