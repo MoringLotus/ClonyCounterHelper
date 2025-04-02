@@ -37,7 +37,7 @@ def evaluate_model(image_folder, label_folder):
         dict: 每个类别的召回率。
     """
     # 加载 YOLO 模型
-    model = YOLO("/home/featurize/work/bhintern/ultralytics/runs/detect/train/weights/best.pt")
+    model = YOLO("/home/featurize/work/bhintern/ClonyCounterHelper/runs/detect/train2/weights/best.pt")
 
     # 获取图片路径列表
     image_paths = [os.path.join(image_folder, img) for img in os.listdir(image_folder)

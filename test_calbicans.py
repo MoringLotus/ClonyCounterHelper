@@ -4,12 +4,12 @@ import os
 import cv2
 
 # 加载预训练模型
-model = YOLO("/home/featurize/work/bhintern/ultralytics/runs/detect/train3_10n/weights/best.pt")
+model = YOLO("/home/featurize/work/bhintern/ClonyCounterHelper/ultralytics/runs/detect/train_100/weights/best.pt")
 
 
 # 定义图片文件夹路径
 image_folder = "/home/featurize/work/bhintern/perclass/C.albicans"
-output_folder = "/home/featurize/work/bhintern/perclass/C.albicans_results_v10"  # 输出文件夹
+output_folder = "/home/featurize/work/bhintern/perclass/C.albicans_results_v10_big_picture"  # 输出文件夹
 
 # 获取文件夹中所有图片路径
 image_paths = [os.path.join(image_folder, filename) for filename in os.listdir(image_folder) if filename.endswith(('.jpg', '.png', '.jpeg'))]

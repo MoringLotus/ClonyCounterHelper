@@ -4,7 +4,7 @@ import os
 import json
 
 # 加载预训练模型
-model = YOLO("/home/featurize/work/bhintern/ultralytics/runs/detect/train3/weights/best.pt")
+model = YOLO("/home/featurize/work/bhintern/ClonyCounterHelper/ultralytics/runs/detect/train_100/weights/best.pt")
 
 # 定义图片和标签文件夹路径
 image_folder = "/home/featurize/work/bhintern/yolodata/valid/images"
